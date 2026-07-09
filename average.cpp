@@ -8,11 +8,10 @@ int num1, num2, num3;
 cout << "Enter three numbers: ";
 cin >> num1 >> num2 >> num3;
 
-// Calculate bitwise OR
-int result = num1 | num2 | num3;
+int result = (num1 + num2 + num3) / 3;
 
 // Output the result
-cout << "The bitwise OR of " << num1 << ", " << num2 << ", and " << num3 << " is: " << result << endl;
+cout << "The average of " << num1 << ", " << num2 << ", and " << num3 << " is: " << result << endl;
 
 return 0;
 }
